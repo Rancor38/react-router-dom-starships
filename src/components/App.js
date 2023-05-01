@@ -14,7 +14,7 @@ function App() {
       <main className="container">
 
       <Routes>
-        <Route path="/" element={<Main />} />
+          <Route path="/" element={<Main />} />
         
         <Route path="/ships" element={<StarshipsList />} />
         
