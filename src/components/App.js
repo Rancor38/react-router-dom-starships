@@ -6,6 +6,7 @@ import Main from '../pages/Main/Main';
 import StarshipsList from '../pages/StarshipsList/StarshipsList';
 import Starship from '../pages/Starship/Starship';
 import Nav from './Nav';
+import Four04 from '../pages/404/Four04'
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Route path="/ships" element={<StarshipsList />} />
         
           <Route path="/ships/:id" element={<Starship />} />
+
+          <Route path="*" element={<Four04 />} />
 
         </Routes>
       </main>
